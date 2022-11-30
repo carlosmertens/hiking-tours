@@ -15,9 +15,13 @@ export const Header = () => {
 
       <div className='text-box'>
         <h1 className='heading-primary'>
-          <span className='heading-primary-main'>Hiking</span>
+          <span className='heading-primary-main'>Outdoors</span>
           <span className='heading-primary-sub'>is where life happens</span>
         </h1>
+
+        <a className='btn btn-white btn-animated' href='#'>
+          Discover our tours
+        </a>
       </div>
     </header>
   );
