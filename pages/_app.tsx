@@ -10,8 +10,8 @@ const lato = Lato({
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className={lato.className}>
+    <div className={lato.className}>
       <Component {...pageProps} />
-    </main>
+    </div>
   );
 }
