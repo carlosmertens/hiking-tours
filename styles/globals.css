@@ -7,7 +7,7 @@ Dark green: #28b485
 
 */
 
-/* ********** GLOBAL SETS AND RESETS ********** */
+/* ********** GLOBAL RESETS AND INITIAL PROPERTIES ********** */
 
 *,
 *::after,
@@ -52,19 +52,19 @@ body {
 }
 
 /* LOGO */
-.logo-box {
+.header__logo-box {
   position: absolute;
   top: 4rem;
   left: 4rem;
 }
 
-.logo {
+.header__logo {
   /* Set with Image from Nextjs */
   /* height: 35px; */
 }
 
 /* CENTER BOX */
-.text-box {
+.header__text-box {
   /* (Start) Center box with position property */
   position: absolute;
   top: 40%;
@@ -83,7 +83,7 @@ body {
   margin-bottom: 6rem;
 }
 
-.heading-primary-main {
+.heading-primary--main {
   display: block;
   font-size: 6rem;
   font-weight: 400;
@@ -91,7 +91,7 @@ body {
   animation: moveInLeft 2s ease-out;
 }
 
-.heading-primary-sub {
+.heading-primary--sub {
   display: block;
   font-size: 2rem;
   font-weight: 700;
@@ -122,7 +122,7 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
-.btn-white {
+.btn--white {
   background-color: #fff;
   color: #777;
 }
@@ -140,7 +140,7 @@ body {
   transition: all 0.4s;
 }
 
-.btn-white::after {
+.btn--white::after {
   background-color: #fff;
 }
 
@@ -148,7 +148,7 @@ body {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
 }
-.btn-animated {
+.btn--animated {
   animation: moveInBotton 1s ease-out 0.75s;
   animation-fill-mode: backwards;
 }
