@@ -1,4 +1,4 @@
-import '../styles/globals.css';
+import '../styles/main.scss';
 import { Lato } from '@next/font/google';
 import type { AppProps } from 'next/app';
 

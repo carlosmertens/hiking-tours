@@ -10,7 +10,8 @@ export default function Home() {
           name='description'
           content='Book your next adventure. Hike in the most amazing places in Germany'
         />
-        <link rel='icon' href='/favicon.png' />
+        <link rel='icon' href='/favicon.ico' />
+        <link rel='apple-touch-icon' href='/apple-touch-icon.png'></link>
       </Head>
 
       <Header />
