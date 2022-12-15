@@ -2,12 +2,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+- Clone the repo and cd into the root folder of the project.
+- Install dependencies and initiate the project with `yarn`
+- Then, run the development server on your terminal:
 
-```bash
-npm run dev
-# or
+``
 yarn dev
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -41,6 +42,8 @@ SASS/SCSS
 
 ## Notes
 
-- Animations
 - 7-1 CSS Architecture with Sass
+- Float layouts
 - Reponsive Design Principles
+- Animations
+```

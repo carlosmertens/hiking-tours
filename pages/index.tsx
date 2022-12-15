@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { GridLayouts } from '../components/GridLayouts';
 import { Header } from '../components/Header';
 
 export default function Home() {
@@ -14,7 +15,8 @@ export default function Home() {
         <link rel='apple-touch-icon' href='/apple-touch-icon.png'></link>
       </Head>
 
-      <Header />
+      {/* <Header /> */}
+      <GridLayouts />
     </>
   );
 }
