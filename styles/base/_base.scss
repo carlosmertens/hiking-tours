@@ -1,0 +1,17 @@
+/* ********** GLOBAL RESETS AND INITIAL PROPERTIES ********** */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; /* assuming default browser (16px) to get 10px base */
+}
+
+body {
+  box-sizing: border-box;
+}
