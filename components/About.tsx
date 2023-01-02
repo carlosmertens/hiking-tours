@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export const About = () => {
   return (
     <section className='section-about'>
@@ -33,7 +35,49 @@ export const About = () => {
             Learn more &rarr;
           </a>
         </div>
-        <div className='col-1-of-2'>image composition</div>
+        <div className='col-1-of-2'>
+          <div className='composition'>
+            <img
+              src='/nat-1-large.jpg'
+              alt='photo nature'
+              className='composition__photo composition__photo--p1'
+            />
+            <img
+              src='/nat-2-large.jpg'
+              alt='photo nature'
+              className='composition__photo composition__photo--p1'
+            />
+            <img
+              src='/nat-3-large.jpg'
+              alt='photo nature'
+              className='composition__photo composition__photo--p1'
+            />
+
+            {/* <Image
+              src='/nat-1-large.jpg'
+              alt='photo nature'
+              width={500}
+              height={500}
+              className='composition__photo composition__photo--p1'
+            /> */}
+
+            {/* <Image
+              src='/nat-2-large.jpg'
+              alt='photo nature'
+              width={500}
+              height={500}
+              className='composition__photo composition__photo--p2'
+            /> */}
+
+            {/* <Image
+              src='/nat-3-large.jpg'
+              alt='photo nature'
+              width={500}
+              height={500}
+              className='composition__photo composition__photo--p3'
+            /> */}
+          </div>
+        </div>
       </div>
     </section>
   );
