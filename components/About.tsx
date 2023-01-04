@@ -1,4 +1,7 @@
 import Image from 'next/image';
+import nat1 from '../public/nat-1-large.jpg';
+import nat2 from '../public/nat-2-large.jpg';
+import nat3 from '../public/nat-3-large.jpg';
 
 export const About = () => {
   return (
@@ -37,20 +40,20 @@ export const About = () => {
         </div>
         <div className='col-1-of-2'>
           <div className='composition'>
-            <img
-              src='/nat-1-large.jpg'
+            <Image
+              src={nat1}
               alt='photo nature'
               className='composition__photo composition__photo--p1'
             />
-            <img
-              src='/nat-2-large.jpg'
+            <Image
+              src={nat2}
               alt='photo nature'
-              className='composition__photo composition__photo--p1'
+              className='composition__photo composition__photo--p2'
             />
-            <img
-              src='/nat-3-large.jpg'
+            <Image
+              src={nat3}
               alt='photo nature'
-              className='composition__photo composition__photo--p1'
+              className='composition__photo composition__photo--p3'
             />
 
             {/* <Image
