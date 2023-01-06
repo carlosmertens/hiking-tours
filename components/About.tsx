@@ -55,30 +55,6 @@ export const About = () => {
               alt='photo nature'
               className='composition__photo composition__photo--p3'
             />
-
-            {/* <Image
-              src='/nat-1-large.jpg'
-              alt='photo nature'
-              width={500}
-              height={500}
-              className='composition__photo composition__photo--p1'
-            /> */}
-
-            {/* <Image
-              src='/nat-2-large.jpg'
-              alt='photo nature'
-              width={500}
-              height={500}
-              className='composition__photo composition__photo--p2'
-            /> */}
-
-            {/* <Image
-              src='/nat-3-large.jpg'
-              alt='photo nature'
-              width={500}
-              height={500}
-              className='composition__photo composition__photo--p3'
-            /> */}
           </div>
         </div>
       </div>
