@@ -43,3 +43,7 @@ SASS/SCSS
 - Reponsive Design Principles
 - Animations
 ```
+
+## Author
+
+- **Carlos Mertens** - _Frontend Developer_
